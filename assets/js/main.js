@@ -79,7 +79,7 @@
     $('.st-dynamic-bg').each(function () {
       var src = $(this).attr('data-src');
       $(this).css({
-        'background-image': 'url(' + src + ')'
+        'background-image': 'url("' + src + '")'
       });
     });
   }
